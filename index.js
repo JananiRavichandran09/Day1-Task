@@ -6,6 +6,9 @@ import { log } from 'console';
 const app = express();
 const PORT = 4000;
 
+app.get('/', (req, res) => {
+    res.status(200).json({ Message:"Hai! You can able to view the TimeStamp with the endpoint of write and read"})
+})
 
 app.get('/write', (req, res) => {
     let today = format(new Date(), 'dd-mm-yyyy-HH-mm-ss')
