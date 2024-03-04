@@ -5,6 +5,8 @@
  + Node.js is an *open-source, cross-platform JavaScript runtime environment* that allows developers to `run JavaScript code outside of a web browser.`
  + It is designed to be **efficient and scalable**, making it well-suited for `building server-side` and `networked applications.`
  + **Node.js is built on the V8 JavaScript engine,** the same engine that powers Google Chrome, and it uses a `non-blocking,` event-driven architecture that makes it ideal for handling *asynchronous tasks* and I/O operations.
+  
+### You can View the TimeStramp By using the EndPoint /write and /read
 
 ## Using Inbuilt Functions
 
